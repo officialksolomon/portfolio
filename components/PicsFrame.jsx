@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function PicsFrame({name, role}) {
   return (
-    <div className='frame d-flex flex-column justify-content-center align-items-center p-4'>
+    <div className='frame d-flex flex-column justify-content-center align-items-center p-4 mt-5'>
       <Image
       src="/hero_img.png"
       alt="Picture of the author"

@@ -9,9 +9,9 @@ export default function Home() {
     // <Navigation/>;
     <div>
       <Container fluid className="h-100">
-        <Row className="h-100 d-flex  ">
+        <Row className="h-100 d-flex  no-gutter">
           <Col className="col1 bg-dark  h-100 order-sm-0 order-2 d-none d-sm-block">
-            <Container>
+            <Container >
                <div className="col1-div mt-2 d-flex flex-column align-items-center justify-content-start"> 
               <div  className='d-flex justify-content-between align-items-center p-0' >
                 {/* <div  className='circle rounded-circle bg-light text-white m-0' > 123 </div> */}
@@ -44,7 +44,7 @@ export default function Home() {
            </Container>
           </Col>
 
-          <Col className="col2 bg-dark h-100 ">
+          <Col className="col2 bg-dark h-100 m-0">
             <Navigation />
             <div className="col2-div d-flex flex-column justify-content-center align-items-center">
               <PicsFrame
@@ -52,7 +52,7 @@ export default function Home() {
                 role="Full Stack Software Engineer"
               />
               {/* show at certain */}
-               <Container fluid className="d-block d-sm-none">
+               <Container fluid className="d-block d-sm-none m-0">
                <div className="col1-div mt-2 d-flex flex-column align-items-center justify-content-start"> 
               <div  className='d-flex justify-content-center align-items-center p-0' >
                 {/* <div  className='circle rounded-circle bg-light text-white m-0' > 123 </div> */}
