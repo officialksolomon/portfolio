@@ -1,0 +1,72 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  color: white;
+  overflow-x: hidden;
+  background-color: #212529;
+  position: relative !important;
+}
+a {
+  color: white !important;
+  margin-right: 20px !important;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.col2 > div {
+  background-color: black !important;
+}
+
+.col1-div {
+  min-height: 100%;
+}
+.col1-div > * {
+  margin: 50px 70px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.col2-div {
+  min-height: 100%;
+}
+
+.my-name {
+  margin: 50px 100px !important;
+}
+
+.portfolio-btn {
+  margin-right: 20px;
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.frame {
+  border: 1px solid white;
+  width: 60%;
+  height: 70%;
+  min-width: 60%;
+  min-height: 70%;
+}
+
+.icons-container > img {
+  margin: 15px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+
+  border: white;
+}
+
+@media screen and (min-width:576px) {
+ /*  */
+}
+
